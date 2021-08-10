@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <a
+    className="src__Anchor-sc-11edswm-0 gGueb"
+    data-testid="goBack"
+    onClick={[Function]}
+  >
+    Back
+  </a>
+  <h1
+    className="heading__StyledHeading-sc-1sovo83-0 juamsS"
+    data-testid="heading"
+    size="XLARGE"
+  >
+    Enter Name
+  </h1>
+  <div
+    className="src__FormGroup-kqurat-0 fREKLF"
+  >
+    <label
+      className="src__StyledLabel-sc-14n2scx-0 kHdLXy"
+    >
+      <span
+        className="src__StyledLabelText-sc-12l0n4z-0 HDdRl"
+        data-testid="label"
+      >
+        Full name
+      </span>
+      <span
+        className="src__StyledHint-sc-1qn4br2-0 kngyqG"
+        data-testid="hint"
+      >
+        Enter your full name, for example - 'John Smith'
+      </span>
+      
+      <input
+        className="src__StyledInput-u8exb4-0 iqwpbG"
+        data-testid="input-name"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </label>
+  </div>
+  <button
+    className="sc-bdnxRM gXVtdA"
+    data-testid="submit"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Continue
+  </button>
+</div>
+`;

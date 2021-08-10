@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="src__OuterContainer-sc-1ppxqxg-0 kqJDjQ"
+>
+  <div
+    className="src__InnerContainer-sc-1ppxqxg-1 bwOECn"
+  >
+    <div
+      className="src__StyledRow-sc-117e6fv-0 feKIQa"
+    >
+      <div
+        className="src__StyledColumn-sc-1d2lq4e-0 eYsGKG"
+        data-testid="content"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <a
+    className="src__Anchor-sc-11edswm-0 gGueb"
+    data-testid="goBack"
+    onClick={[Function]}
+  >
+    Back
+  </a>
+  <h1
+    className="heading__StyledHeading-sc-1sovo83-0 juamsS"
+    data-testid="heading"
+    size="XLARGE"
+  >
+    Please select your business type
+  </h1>
+  <div
+    className="src__FormGroup-kqurat-0 fREKLF"
+    data-testid="input-business-type"
+    onChange={[Function]}
+    value=""
+  >
+    <label
+      className="src__StyledLabel-sc-14n2scx-0 kHdLXy"
+    >
+      
+      <label
+        className="src__Label-sc-7h7h1q-0 bJdWRC"
+      >
+        <input
+          className="src__Input-sc-7h7h1q-1 cVoNtu"
+          defaultChecked={false}
+          name="group1"
+          type="radio"
+          value="Sole trader"
+        />
+        <span
+          className="src__LabelText-sc-7h7h1q-2 hVPuLQ"
+        >
+          Sole trader.
+        </span>
+      </label>
+      <label
+        className="src__Label-sc-7h7h1q-0 bJdWRC"
+      >
+        <input
+          className="src__Input-sc-7h7h1q-1 cVoNtu"
+          defaultChecked={false}
+          name="group1"
+          type="radio"
+          value="Partnership"
+        />
+        <span
+          className="src__LabelText-sc-7h7h1q-2 hVPuLQ"
+        >
+          Partnership.
+        </span>
+      </label>
+      <label
+        className="src__Label-sc-7h7h1q-0 bJdWRC"
+      >
+        <input
+          className="src__Input-sc-7h7h1q-1 cVoNtu"
+          defaultChecked={false}
+          name="group1"
+          type="radio"
+          value="Private Limited"
+        />
+        <span
+          className="src__LabelText-sc-7h7h1q-2 hVPuLQ"
+        >
+          Private Limited.
+        </span>
+      </label>
+      <label
+        className="src__Label-sc-7h7h1q-0 bJdWRC"
+      >
+        <input
+          className="src__Input-sc-7h7h1q-1 cVoNtu"
+          defaultChecked={false}
+          name="group1"
+          type="radio"
+          value="Public Limited"
+        />
+        <span
+          className="src__LabelText-sc-7h7h1q-2 hVPuLQ"
+        >
+          Public Limited.
+        </span>
+      </label>
+    </label>
+  </div>
+  <button
+    className="sc-bdnxRM gXVtdA"
+    data-testid="submit"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Continue
+  </button>
+</div>
+`;
