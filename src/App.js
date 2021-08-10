@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import TopNavComponent from './components/TopNavComponent/TopNavComponent';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import NameInput from './components/NameInput/NameInput';
+import RegistrationPage from './pages/RegistrationPage';
+import BusinessNameInput from './components/BusinessNameInput/BusinessNameInput';
+import ContactNrInput from './components/ContactNrInput/ContactNrInput';
+import AddressInput from './components/AddressInput/AddressInput';
+import BusinessTypeInput from './components/BusinessTypeInput/BusinessTypeInput';
+import Password from './components/PasswordInput/PasswordInput';
+import Summary from './components/Summary/Summary';
+import Success from './components/Success/Success';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div style={{WebkitFontSmoothing: "antialiased"}}>
+      <TopNavComponent />
+      <RegistrationPage>
+        <BrowserRouter>
+          <Switch>
+            <Route  path='/name' component={NameInput} />
+            <Route  path='/business-name' component={BusinessNameInput} />
+            <Route  path='/contact-number' component={ContactNrInput} />
+            <Route  path='/address' component={AddressInput} />
+            <Route  path='/business-type' component={BusinessTypeInput} />
+            <Route  path='/password' component={Password} />
+            <Route  path='/summary' component={Summary} />
+            <Route  path='/success' component={Success} />
+          </Switch>
+        </BrowserRouter>
+      </RegistrationPage>
+      </div>
+      
+
+
   );
 }
 

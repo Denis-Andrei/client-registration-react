@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <a
+    className="src__Anchor-sc-11edswm-0 gGueb"
+    data-testid="goBack"
+    onClick={[Function]}
+  >
+    Back
+  </a>
+  <table
+    className="src__StyledTable-sc-1o56d04-0 glPCiB"
+  >
+    <caption
+      className="Caption-sc-1idz0wn-0 ehgwzr"
+    >
+      Summary
+    </caption>
+    <tbody
+      className="TableBody-sc-1gk0z9f-0"
+    >
+      <tr
+        className="Row-sc-17ofjw0-0"
+      >
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+          data-testid="table-cell-name"
+        >
+          Name
+        </td>
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+        >
+          
+        </td>
+      </tr>
+      <tr
+        className="Row-sc-17ofjw0-0"
+      >
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+          data-testid="table-cell-business"
+        >
+          Business Name
+        </td>
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+        >
+          
+        </td>
+      </tr>
+      <tr
+        className="Row-sc-17ofjw0-0"
+      >
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+          data-testid="table-cell-number"
+        >
+          Contact Number
+        </td>
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+        >
+          
+        </td>
+      </tr>
+      <tr
+        className="Row-sc-17ofjw0-0"
+      >
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+          data-testid="table-cell-address"
+        >
+          Address
+        </td>
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+        >
+          
+          , 
+          
+        </td>
+      </tr>
+      <tr
+        className="Row-sc-17ofjw0-0"
+      >
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+          data-testid="table-cell-business-type"
+        >
+          Business Type
+        </td>
+        <td
+          className="Cell-e1qzac-0 eAlzkC"
+        >
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button
+    className="sc-bdnxRM gXVtdA"
+    data-testid="submit"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Submit
+  </button>
+</div>
+`;
